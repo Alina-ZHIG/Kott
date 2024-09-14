@@ -1,0 +1,30 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Анимация для иконок */
+.icon-box {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.icon-box:hover {
+    transform: scale(1.1);
+    background-color: #ff69b4;
+    border-radius: 10px;
+}
+
+/* Розовые элементы */
+.hero-section {
+    background-color: #ff69b4;
+    color: white;
+}
+
+.navbar {
+    background-color: #ff69b4;
+}
+
+/* Стиль для текста */
+h1, h2, p, a.nav-link {
+    color: white;
+}
